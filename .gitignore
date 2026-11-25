@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Node / Vite
+node_modules/
+dist/
+.vite/
+
+# Env a tajemství — NIKDY necommitovat
+.env
+*.env.local
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docker data (volumes)
+caddy_data/
+pgdata/
+
+# Zálohy (dumps a logy; .gitkeep se commituje)
+backups/*.dump
+backups/*.log
+
+# Generované karty (běh skriptu)
+karticky.csv
+qr/

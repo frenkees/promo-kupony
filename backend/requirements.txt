@@ -1,0 +1,15 @@
+# POZNÁMKA: Pro produkci vygeneruj lock file přes pip-compile (pip-tools):
+#   pip-compile --generate-hashes requirements.in
+# Wildcardy níže jsou pohodlné pro vývoj, pro nasazení preferuj uzamčené verze.
+fastapi==0.115.*
+uvicorn[standard]==0.32.*
+sqlalchemy==2.0.*
+psycopg[binary]==3.2.*
+alembic==1.14.*
+pydantic-settings==2.7.*
+pydantic==2.10.*
+passlib[bcrypt]==1.7.*
+bcrypt==4.2.*
+PyJWT==2.10.*
+python-multipart==0.0.*
+slowapi==0.1.*
